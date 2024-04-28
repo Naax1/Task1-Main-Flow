@@ -1,0 +1,169 @@
+body{
+   background-color: rgb(179, 209, 233)
+}
+
+*{
+    text-decoration: none;
+}
+
+
+.logo{
+    
+    position: absolute; 
+    top: 10px;
+    left: 10px;
+}
+
+.img1{
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.navbar{
+    background-color: rgb(71, 164, 222);
+    font-family: Calibri;
+    padding-left: 15px; padding-right: 15px;
+
+}
+.navdiv{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+a{
+    font: size 35px;  font-weight:600 ; color: white;
+}
+
+li {
+    list-style: none; display: inline-flex;
+    
+
+}
+
+li a{
+    color: white; font-size: 18px; font-weight: bold;
+    margin-right: 25px;
+}
+button{
+    background-color: black; border-radius: 10px;
+    padding: 10px; width: 90px ;
+    border-color:rgb(176, 176, 176) ; 
+}
+button a{
+    font-weight: bold; color: white;
+    font-size: 15px;
+}
+
+.navbar a:hover{
+    background-color: #37d65f;
+    border-radius: 08px;
+}
+
+
+/* contact */
+
+.texted{
+    display: inline-block;
+    text-align: center;
+}
+.text{
+    font-size: 6em;
+    letter-spacing: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(22),
+    cursor .4s step-end infinite alternate;
+}
+
+/* blinking */
+@keyframes cursor {
+    50% { border-color: transparent;}
+/* lllll */ 
+
+
+
+}
+
+/* effect */
+@keyframes typing{
+    from{ width: 0}
+}
+
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  button {
+    background-color: black;
+    
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 122px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #37d65f;
+  }
+  
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+
+  .div2{
+    background-color: #3aa2d2;
+    text-align: center;
+
+
+
+  }
+
+
+
+
+
+
+
